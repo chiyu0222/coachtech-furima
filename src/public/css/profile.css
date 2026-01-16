@@ -1,0 +1,44 @@
+/* プロフィールヘッダー全体 */
+.profile-header {
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* アイコン */
+.profile-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.profile-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ユーザー名 */
+.profile-name h2 {
+    margin: 0;
+}
+
+/* 編集ボタン */
+.profile-edit a {
+    padding: 10px 20px;
+    background: #ff4d4d;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.profile-edit a:hover {
+    opacity: 0.8;
+}

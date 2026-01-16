@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* ページ全体は白背景 */
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    color: #000; /* ページ全体の文字は黒 */
+}
+
+header {
+    background-color: #000000; /* ヘッダーだけ黒背景 */
+    color: #fff;               /* ヘッダー文字は白 */
+    padding: 10px;
+    text-align: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #fff; /* フォームは白背景 */
+    width: 400px;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    color: #000; /* フォーム文字は黒 */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #000; /* ラベルも黒 */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000; /* 入力文字も黒 */
+}
+
+.login-button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e63946; /* 赤ボタン */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #c62828;
+}
+.register-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}

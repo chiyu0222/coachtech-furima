@@ -1,0 +1,94 @@
+.address-form-container {
+    background: white;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* 画面幅を制限したい場合 */
+    margin: 20px auto; /* 上下だけに余白 */
+}
+.address-form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.address-form-container button {
+    background: #ff4d4d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+}
+/* 全体の背景と文字色 */
+body {
+    background-color: #fff; /* 本文の背景は白 */
+    color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ヘッダーだけ黒背景 */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ヘッダー内のリンクは白 */
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* フッター */
+footer {
+    background-color: #f2f2f2; /* 薄いグレー */
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* 全体のリンク */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 検索フォーム */
+.search-form input {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #333;
+}
+
+.search-form button {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    background: #444;
+    color: white;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background: #666;
+}
+
+/* main の余白 */
+main {
+    padding: 20px;
+}
